@@ -1,0 +1,789 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Rozha+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Rozha One", serif; 
+    font-family: "Crimson Text", serif;
+
+}
+
+.portafoliomio{
+    background: rgb(0, 0, 0) !important;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    height: 75px;
+}
+
+/* Items del menú a la derecha */
+nav .navbar-collapse{
+    justify-content: flex-end;
+    
+}
+nav .navbar-collapse .nav-link{
+    color: rgb(255, 255, 255);
+    padding: 25px 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid transparent;
+    position: relative;
+    font-size: 22px;
+}
+nav .navbar-collapse .nav-link:hover{
+    color: #d0a2f7;
+}
+
+
+nav .navbar-collapse .nav-link:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 30px;
+}
+
+.navbar-brand:hover{
+    color: #d0a2f7;
+}
+
+
+
+.content{
+    width: 100%;
+    display: flex;
+    background:linear-gradient(90deg, rgb(22, 22, 22), rgba(255, 255, 255, 0.942));
+    /* height: 100vh;
+    padding-left: 100px; */
+    padding-top: 50px;
+    
+
+}
+
+.porta{
+    position: relative;
+    top: 200px;
+    left: 200px;
+    margin: 0 auto; 
+    /* height: 93vh; */
+    padding-bottom: 300px;    
+
+}
+
+.porta h2{
+    font-size: 35px;
+    color: white;
+    padding: 0 0 0px;
+    cursor:context-menu;
+
+}
+
+.porta h1{
+    left: 400px;
+    top: 500px;
+    font-size: 70px;
+    color: #d0a2f7;
+    cursor:context-menu;
+
+}
+
+.imagen{
+   padding-left: 500px;
+   cursor:grab;
+   width:1100px;
+   height:890px;
+}
+
+.porta button{
+    margin-top: 50px;
+    background: #ffffff;
+    font-size: 25px;
+    padding: 0px 40px ;
+    border-radius: 14px;
+    color:#000000;
+    border-color: transparent;
+    transition: .5s;
+    cursor: pointer;
+    bottom:50px;
+    box-shadow: 20px 5px  20px 5px #000000;
+    margin-left: 22%;
+    
+}
+.porta button:hover{
+    transform: scale(1.1);
+    background:   #d0a2f7;
+    color: white;
+    
+}
+
+/* perfil */
+
+
+#perfil{
+    
+    padding-top: 120px;
+    padding-bottom: 200px;
+    margin: 0 80px 0 80px;
+    
+
+}
+#perfil h1{
+    padding-top: 50px;
+    font-size: 60px ;
+    text-align: center;
+    
+    
+}
+
+
+#perfil img{
+    
+    box-shadow: 20px 5px  20px 5px #a9a5a5;
+    border-radius: 50%;
+    padding: 30px;
+    height: 400px;
+    width: 300px;
+    margin-top: 70px;
+    
+}
+
+#perfil .marta1{
+    text-align: center; 
+
+   }
+
+#perfil p{
+    position:relative;
+    top: 200px;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+}
+
+/* habilidades */
+
+#habilidades{
+    
+    padding-top: 180px;
+    padding-bottom: 130px;
+    width: 100%;
+    background:linear-gradient(90deg, rgba(0, 0, 0, 0.84), rgba(255, 255, 255, 0.848),rgba(0, 0, 0, 0.84));
+}
+#habilidades h1{
+    padding-bottom: 50px;
+    font-size: 60px ;
+    text-align: center;
+}
+
+#habilidades .col-md-4{
+    padding: 65px; 
+    width: 130px;
+    height: 130px;
+    position: relative; 
+    
+}
+
+#habilidades .marta2{
+    
+    text-align: center;
+    border-radius: 100%;   
+    background: #fff;
+}
+#habilidades .marta1{
+    
+    text-align: center;
+    border-radius: 50%;   
+    background: #808080;
+}
+
+#habilidades .cont-habi{
+    justify-content:space-evenly;
+    padding: 0 30px;
+}
+#habilidades .cont-habi2{
+    justify-content:space-evenly;
+    padding: 120px 160px ;
+
+}
+#habilidades h3{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    right: 0;
+    color: #000000;
+    font-size: 35px;
+}
+
+#habilidades h4{
+    font-size: 30px;
+    position: absolute;
+    top: 140px;
+    left: 0;
+    right: 0;
+    color: #000000;
+}
+
+
+/* hobbies */
+
+
+#hobbies{
+    
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom:270px;
+    background:linear-gradient(90deg, rgba(0, 0, 0, 0.84), rgba(255, 255, 255, 0.848),rgba(0, 0, 0, 0.84));
+}
+
+#hobbies h1{
+    padding-bottom: 80px;
+    font-size: 60px ;
+    text-align: center;
+}
+
+#hobbies img {
+
+    width: 300px;
+    height: 300px;
+    box-shadow: 20px 5px  20px 5px #a9a5a5;
+    border: 10px solid #99627A;
+    border-radius: 200px 200px 0 0 ;
+
+} 
+
+#hobbies .cont-hobbies{
+    justify-content:space-between;
+    padding: 0 300px;
+    margin-left: -180px;
+}
+
+#hobbies .cont-hobbies2{
+    justify-content:space-around;
+    margin-top: -150px;
+    padding-left: 30px;
+}
+#hobbies .col-md-2{
+    position: relative;
+
+}
+
+#hobbies h4{
+    font-size: 30px;
+    position: absolute;
+    top: 320px;
+    left: 130px;
+
+}
+
+/* estudio */
+
+#estudio{
+    width: 100%;
+    padding-top: 130px;
+    padding-bottom: 150px;
+    position: relative;
+    
+
+}
+
+#estudio h1{
+    padding-bottom: 80px;
+    font-size: 60px ;
+    text-align: center;
+}
+
+#estudio p{
+    font-size: 15px ;
+}
+
+#estudio img {
+
+    width:450px;
+    height: 500px;
+    border-radius: 100px ;
+    box-shadow: 20px 5px  20px 5px #a9a5a5;
+} 
+
+#estudio .cont-info{
+    padding-left: 700px;
+    position: absolute;
+    font-size: 30px;
+}
+#estudio .cont-info i{
+    font-size: 30px;
+    color: #99627A;
+}
+
+#estudio .cont-info li{
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+/* redes */
+
+#redes{
+    
+    width: 100%;
+    
+    background:linear-gradient(90deg, rgba(0, 0, 0, 0.84), rgba(255, 255, 255, 0.848),rgba(0, 0, 0, 0.84));
+}
+
+#redes h1{
+    font-size: 60px ;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 125px;
+}
+
+#redes img{
+    border-radius: 30%;
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#redes img:hover{
+    transform: scale(1.2);
+    
+}
+
+
+#redes .cont-redes{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#redes .cont-redes h3{
+    padding-top: 20px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+#redes .cont-redes2 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+#redes p {
+    padding-top: 50px;
+}
+
+
+ /* Clases Destacadas */
+
+ #proyectos{
+    
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 220px;
+    
+ }
+
+ #proyectos h1{
+    font-size: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+ }
+
+ .container1{
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    background: #a6a6a6;
+ }
+
+
+ .multiple-items{
+    /* margin: 20px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+ }
+
+.multiple-items img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.multiple-items  a.item{
+    /* background: blueviolet; */
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #000000;
+    text-decoration:none;
+
+}
+
+.multiple-items .item h3{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #000000;
+    text-decoration:none;
+}
+.multiple-items .item img{
+    margin-left: 190px;
+}
+
+/* .slick-slider button{
+    padding: 20px;
+    background: transparent ;
+    border: 0px solid transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+} */
+.slick-arrow{
+    width: 30px;
+    height: 30px;
+    font-size: 1px;
+    color: transparent;
+    border: 0px;
+    background-size: 100%;
+    
+}
+
+.slick-prev{
+    right: 40px;
+    background: url("../img/arrow.png") !important;
+    transform: rotate(-180deg);
+    position: absolute;
+    left: 0;
+    top: 80px;
+    z-index: 999;
+    height: 65px;
+    width: 50px;
+}
+
+.slick-next{
+    
+    background: url("../img/arrow.png") !important;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    z-index: 999;
+    height: 65px;
+    width: 50px;
+
+}
+
+
+@media screen and (min-width:320px) and (max-width:990px) {
+
+    .portafoliomio{
+        background: rgb(0, 0, 0) !important;
+        border-bottom: 2px solid rgb(0, 0, 0);
+        width: 440px;
+        height: 75px;
+        font-size: 10px;
+    }
+
+    a.navbar-brand{
+        font-size: 23px;
+    }
+
+    nav .navbar-collapse .nav-link{
+    border-bottom: 1px solid transparent;
+    padding-left: 300px;
+    font-size: 20px;
+    background: rgb(0, 0, 0);
+    display: block;
+    color: rgb(255, 255, 255);
+    margin: 0 300px 0 0 ;
+}
+
+    /* prinipla */
+
+    .content{
+        width: 440px;
+        background:linear-gradient(90deg, rgb(0, 0, 0), rgba(255, 255, 255, 0.942));
+        padding-top: 100px;
+    }
+    
+    .porta{
+        position: relative;
+        top: 100px;
+        left: 100px;
+        margin: 0 auto; 
+        /* height: 93vh; */
+        padding-bottom: 300px;    
+    
+    }
+    
+    .porta h2{
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        padding: 0 0 0px;
+        cursor:context-menu;
+    
+    }
+    
+    .porta h1{
+        left: 400px;
+        top: 500px;
+        font-size: 50px;
+        color: #000000;
+        cursor:context-menu;
+    }
+    
+    
+    .porta button{
+        margin-top: 50px;
+        background: #000000;
+        font-size: 25px;
+        padding: 5px 40px ;
+        border-radius: 14px;
+        color:#ffffff;
+        border-color: transparent;
+        transition: .5s;
+        cursor: pointer;
+        bottom:50px;
+        box-shadow: 20px 5px  20px 5px #7e7c7c;
+        margin-left: 0;
+        
+    }
+    .porta button:hover{
+        transform: scale(1.1);
+        background:   #ffffff;
+        color: rgb(0, 0, 0);
+    }
+
+
+    /* perfil */
+    #perfil {
+        padding: 100px 0;
+        
+    }
+
+    #perfil h1{
+    padding: 0 30px;
+    font-size: 40px ;
+    }
+
+    #perfil img{
+    padding: 30px;
+    height: 300px;
+    width: 200px;
+    margin: 0;
+    }
+
+    #perfil p{
+    position: relative;
+    top: 20px;
+    font-size: 17px;
+    }
+
+    /* habilidades */
+
+    #habilidades {
+        padding: 150px 0 190px 0;
+    }
+
+    #habilidades h1{
+    font-size: 40px ;
+    }
+
+    #habilidades .col-md-4{
+    padding: 30px; 
+    position: relative; 
+    }
+
+    #habilidades .marta2{   
+    border-radius: 100%;   
+    border: 1px solid rgba(224, 220, 219, 0.709);
+    box-shadow: 0 0  9px 0 #d9d1d1;
+    background: #fff;
+    position: relative;
+    top: 20px;
+    margin: 30px;
+
+    }
+    #habilidades .marta1{
+    
+    text-align: center;
+    border-radius: 50%;   
+    box-shadow: 0 0  9px 0 #d9d1d1;
+    background: #808080;
+    position: relative;
+    bottom:20px;
+    margin: -70px;
+    }
+
+    #habilidades .cont-habi{
+    padding: 100px 0;
+    }
+    #habilidades .cont-habi2{
+    padding: 50px 0 ;
+    }
+    #habilidades h3{
+    font-size: 35px;
+    }
+    #habilidades h4{
+    font-size: 18px; 
+    }
+    
+    /* hobbies */
+
+    #hobbies{
+       padding: 100px 0 150px 0;
+    
+    }
+    
+    #hobbies h1{
+        font-size: 40px ;
+    }
+    
+    #hobbies img {
+        width: 150px;
+        height: 150px;
+        border: 10px solid #99627A;
+    } 
+    
+    #hobbies .cont-hobbies{
+        padding: 0 200px;
+        margin-left: -280px;
+    }
+    
+    #hobbies .cont-hobbies2{
+        margin-top: 0;
+        padding-left: 30px;
+    }
+    #hobbies .col-md-2{                                                                                                                                               
+        position: relative;
+        padding: 20px 130px;
+    }
+    
+    #hobbies h4{
+        font-size: 25px;
+        position: absolute;
+        top: 80px;
+        left: 330px;
+        color: #000000;
+    
+    }
+
+    /* estudio */
+
+#estudio{
+    padding-top: 80px;
+    padding-bottom: 700px;
+    position: relative;
+}
+
+#estudio h1{
+    padding-bottom: 80px;
+    font-size: 60px ;
+    text-align: center;
+}
+
+#estudio p{
+    font-size: 15px ;
+}
+
+#estudio img {
+    width:400px;
+    height: 300px;
+
+} 
+
+#estudio .cont-info{
+    padding-left: 0;
+    padding-top: 330px;
+    position: absolute;
+    font-size: 30px;
+}
+#estudio .cont-info i{
+    font-size: 30px;
+    color: #99627A;
+}
+
+#estudio .cont-info li{
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+/* redes */
+
+#redes{
+    
+    background:linear-gradient(90deg, rgba(0, 0, 0, 0.84), rgba(255, 255, 255, 0.848),rgba(0, 0, 0, 0.84));
+}
+
+#redes h1{
+    font-size: 40px ;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#redes img{
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#redes img:hover{
+    transform: scale(1.2);
+}
+
+#redes .cont-redes{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#redes .cont-redes h3{
+    padding-top: 20px;
+    padding-left: 0px;
+    font-size: 15px;
+}
+
+#redes .cont-redes2 {
+    padding-top: 0;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+#redes p {
+    padding-top: 50px;
+}
+
+
+ 
+}
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
